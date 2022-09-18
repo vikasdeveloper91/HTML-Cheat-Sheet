@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color:rgb(14, 60, 71);
+}
+
+.logo img {
+  width: 44px;
+
+}
+.content {
+  font-family: "Ubuntu", sans-serif;
+  font-size: large;
+  color:white;
+
+}
+.container{
+    
+    width:50vw;
+    padding:23px 0;
+    font-family: "Ubuntu", sans-serif;
+    color:black;
+    margin:23px auto;
+}
+.container ol li{
+  margin: 4px 0px 24px 0px;
+}
+.toolbar-item button{
+  border: 2px solid white !important;
+    border-radius: 6px !important;
+    padding: 5px 12px !important;
+    color: white !important;
+    margin: 8px 8px 0px 0px !important;
+}
+.code-toolbar pre{
+  background-color: #04384c !important;
+  margin-top: 10px !important;
+}
+footer{
+  background-color: rgb(14, 60, 71);
+  color:white;
+justify-content: center;
+  height : 70px;
+  display: flex;
+align-items: center;
+}
+footer p{
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+}
